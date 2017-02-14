@@ -56,7 +56,54 @@
 
                       </div>
                       <div class="card-action">
-                        <a href="#">No Link Available</a>
+                        <a class="modal-trigger waves-effect waves-light btn" href="#modal1">View</a>
+                        <!-- <a href="#">No Link Available</a> -->
+                      </div>
+                    </div>
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal modal-fixed-footer">
+                      <div class="modal-content">
+                        <h4>Last Night Alpha</h4>
+                        <div class = "row">
+                        <div class="col s12 m4">
+                          <img class="materialboxed" width = "250" src="img/lastnight.png">
+                        </div>
+                        <div class="col s12 m4">
+                          <img class="materialboxed" width = "250" src="img/lastnight.png">
+                        </div>
+                        <div class="col s12 m4">
+                          <img class="materialboxed" width = "250" src="img/lastnight.png">
+                        </div>
+                      </div>
+                      <p>Last Night Alpha was a submission for HackEastern 16. This game takes inspiration from Silent Hills and Resident Evil
+                        Biohazard. The majority of the scripts was coded using C# while only a few used JavaScript. The objective of the game is to find
+                        the exit, all while surviving.</p>
+                      <div class = "row">
+                      <div class="chip">
+                        <img src="img/lastnight.png" alt="Contact Person">
+                        Unity 5
+                      </div>
+                      <div class="chip">
+                        <img src="img/lastnight.png" alt="Contact Person">
+                        C#
+                      </div>
+                      <div class="chip">
+                        <img src="img/lastnight.png" alt="Contact Person">
+                        JavaScript
+                      </div>
+                      <div class="chip">
+                        <img src="img/lastnight.png" alt="Contact Person">
+                        Photoshop
+                      </div>
+
+                      </div>
+
+                    </div>
+
+
+                      <div class="modal-footer">
+
+                        <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat ">Close</a>
                       </div>
                     </div>
 
@@ -64,7 +111,7 @@
 
                   </div>
                   <div class="col s12 m4">
-                    <div class="card ">
+                    <div class="card small horizontal ">
                       <div class="card-image">
                         <img class="materialboxed" src="img/UnitedShare.png">
 
@@ -133,6 +180,11 @@
         $(document).ready(function(){
           $('.parallax').parallax();
         });
+
+        $(document).ready(function(){
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal').modal();
+});
 
       </script>
     </body>
