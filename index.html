@@ -24,11 +24,13 @@
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="assets/Hunn_Resume.pdf">Resume</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="assets/Hunn_Resume.pdf">Resume</a></li>
           </ul>
@@ -69,6 +71,30 @@
                   <div class="col s12 left-align"><p class="flow-text">Welcome to my website! Currently under renovation so in the mean time, check out some recent
                     projects below. Links to my Linkedin, GitHub, contact info, etc. are below. </p></div>
                 </div> -->
+
+                <blockquote style = "light-blue darken-4">
+
+                   <h3 id = "about" class = "scrollspy">About:</h3>
+                 </blockquote>
+
+
+                 <div class="card-panel  grey lighten-5">
+                   <div class="col s12 left-align">
+
+
+                     <p class="flow-text">
+                        andrewHunn.origin();
+
+                        <br>
+                        String education = "Eastern Michigan University";
+                        <br>
+                        String major = "Computer Science";
+                        <br>
+
+
+
+                    </p></div>
+                 </div>
 
                 <blockquote style = "light-blue darken-4">
 
@@ -114,74 +140,86 @@
                      <div class = "col s12 m4">
                        <div class="card ">
                          <div class="card-image hoverable">
-                           <a href="#modal1"><img  src="img/lastnightbeta.png"><span class="card-title">Last Night</span></a>
+                           <a href="#modal1"><img  src="img/lnmenu.png"><span class="card-title">Last Night</span></a>
                          </div>
-
 
                          <!-- Modal Structure -->
-                         <div id="modal1" class="modal modal-fixed-footer">
-                           <div class="modal-content">
-                             <div class = "row">
-                               <!-- <div class = "col s12 m6">
-                                 <img class="materialboxed" height = "250px" src="img/lastnight.png">
-                               </div> -->
-                               <div class = "col s12 m6">
-                                 <div class="carousel">
-                                  <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
-                                  <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
-                                  <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
-                                </div>
-                              </div>
-                             <div class="col s12 m6">
-                                 <h3>Last Night Alpha</h3>
-                                 <h5>Dec. 2016 to Mar. 2017</h5>
-                                 <h5>Last Night Alpha</h5>
-                                 <div class = "row">
-                                   <div class=" col s12 m4">
-                                     <img class="materialboxed" width = "50" src="img/eastern.png">
-                                   </div>
-                                   <div class=" col s12 m4">
-                                     <img class="materialboxed" width = "50" src="img/hackeastern.png">
-                                   </div>
-                                   <div class=" col s12 m4">
-                                     <img class="materialboxed" width = "50" src="img/unity.png">
-                                   </div>
+                         <div class = "container">
+                           <div id="modal1" class="modal modal-fixed-footer">
+                             <div class="modal-content">
+                               <!-- First Row (Image and Info) -->
+                               <div class = "row z-depth-1">
+                                 <div class = "col s12 m6">
+                                   <br>
+                                   <img class="materialboxed responsive-img" height = "500px" src="img/lnmenu.png">
+                                   <div class="hide-on-small-only"><br></div>
                                  </div>
-                             </div>
 
+                                 <div class="col s12 m6 center-align">
+                                   <br>
+                                   <h4><i>Last Night</i></h4>
+                                   <h6>Dec. 2016 to Mar. 2017</h6>
+                                   <!-- Badges -->
+                                   <div class="chip ">Unity 5</div>
+                                   <div class="chip">C#</div>
+                                   <div class="chip">JavaScript</div>
+                                   <div class="chip">Blender</div>
+                                   <div class="chip center-align"><img src="img/eastern.png" alt="Contact Person">EMU Undergraduate Symposium 2017</div>
+                                   <div class="chip"><img  src="img/hackeastern.png" alt="Contact Person">HackEastern Submission 2016 (Alpha)</div>
+                                   <div class="chip"><img  src="img/mhacks.png" alt="Contact Person">MHacks9 Submission 2017 (Beta)</div>
+
+                                   <div class="hide-on-large-only"><br></div>
+                                 </div>
+                               </div>
+                               <!-- Second row (Other Information) -->
+                               <div class = "row">
+                                 <ul class="collapsible" data-collapsible="accordion">
+                                   <li>
+                                     <div class="collapsible-header active"><i class="material-icons">info_outline</i>Summary</div>
+                                      <div class="collapsible-body">
+                                       <p>Last Night Alpha was a submission for HackEastern 16. This game takes inspiration from Silent Hills and Resident Evil
+                                         Biohazard. The majority of the scripts was coded using C# while only a few used JavaScript. The objective of the game is to find
+                                         the exit, all while surviving.</p>
+                                       </div>
+                                     </li>
+                                     <li>
+                                       <div class="collapsible-header"><i class="material-icons">perm_media</i>Project Images</div>
+                                       <div class="collapsible-body">
+                                         <div class = "row">
+                                           <div class = "col s12 m4 ">
+                                             <div class="hide-on-large-only"><br></div>
+                                             <img class="materialboxed responsive-img" src="img/ln1.png">
+                                             <div class="hide-on-large-only"><br></div>
+                                           </div>
+                                           <div class = "col s12 m4">
+                                             <div class="hide-on-large-only"><br></div>
+                                             <img class="materialboxed responsive-img" src="img/ln2.png">
+                                             <div class="hide-on-large-only"><br></div>
+                                           </div>
+                                           <div class = "col s12 m4">
+                                             <div class="hide-on-large-only"><br></div>
+                                             <img class="materialboxed responsive-img" src="img/ln3.png">
+                                             <div class="hide-on-large-only"><br></div>
+                                           </div>
+                                         </div>
+                                       </div>
+                                     </li>
+                                     <li>
+                                       <div class="collapsible-header"><i class="material-icons">new_releases</i>Update Log</div>
+                                       <div class="collapsible-body"></div>
+                                     </li>
+                                   </ul>
+                                 </div>
+                               </div>
+                               <div class="modal-footer">
+                                 <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat ">Close</a>
+                                 <a href="https://www.github.com/ahunnii" class="modal-action modal-close waves-effect waves-green btn-flat ">Github</a>
+                               </div>
+                             </div>
                            </div>
-                           <p>Last Night Alpha was a submission for HackEastern 16. This game takes inspiration from Silent Hills and Resident Evil
-                             Biohazard. The majority of the scripts was coded using C# while only a few used JavaScript. The objective of the game is to find
-                             the exit, all while surviving.</p>
-                           <!-- Badges -->
-                           <div class = "row">
-                             <div class="chip">
-                               <img src="img/lastnight.png" alt="Contact Person">
-                               Unity 5
-                             </div>
-                             <div class="chip">
-                               <img src="img/lastnight.png" alt="Contact Person">
-                               C#
-                             </div>
-                             <div class="chip">
-                               <img src="img/lastnight.png" alt="Contact Person">
-                               JavaScript
-                             </div>
-                             <div class="chip">
-                               <img src="img/lastnight.png" alt="Contact Person">
-                               Photoshop
-                             </div>
-                           </div>
-                         </div>
-                         <div class="modal-footer">
-                         <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat ">Close</a>
-                         </div>
-                         </div>
 
-
-
+                         </div>
                        </div>
-                     </div>
 
 
                      <div class = "col s12 m4">
@@ -253,7 +291,9 @@
 });
 
 
-
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});
 
         $(".button-collapse").sideNav();
 
