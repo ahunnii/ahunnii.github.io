@@ -1,323 +1,254 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="libs/materialize/css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Andrew Hunn</title>
+		<title>Andrew Hunn's Web Portfolio</title>
 
-    </head>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <body>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 
-      <!--Navigation Bar-->
-      <nav>
-        <div class="nav-wrapper light-blue darken-4">
-          <div class = "container">
-          <a href="#!" class="brand-logo">Andrew Hunn</a>
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
 
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="assets/Hunn_Resume.pdf">Resume</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="assets/Hunn_Resume.pdf">Resume</a></li>
-          </ul>
-          </div>
-        </div>
-      </nav>
 
-         <div class="parallax-container center">
-          <div class="parallax" ><img src="img/wallpaper1.png"></div>
-<!-- <h5 class = "valign center" style = "color:white">We all float down here.</h5>-->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p class="flow-text" style="color:white">Welcome to my website! Currently under renovation so in the mean time, check out some recent
-  projects below. Links to my Linkedin, GitHub, contact info, etc. are below. </p>
-            <!-- <h5 class = "valign center" style = "color:white" >We all float down here.</h5> -->
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- Leave those next 4 lines if you care about users using IE8 -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<script>
+
+         //Google Analytics
+
+		 //if(location.hostname != "localhost") {
+		 //	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-42920430-17', 'auto'); ga('send', 'pageview');
+		 //} else {
+		 //	console.log('dev mode detected, don\'t track view')
+		 //}
+
+		</script>
 
 
 
-      </div>
+	</head>
+	<body>
 
-      <!-- <div class="col s12" ><img src="img/mirage.jpg" ></div> -->
-
-
-
-
-
-
-
-              <div class="container" >
-                <!-- <div class="card-panel  grey lighten-5">
-                  <div class="col s12 left-align"><p class="flow-text">Welcome to my website! Currently under renovation so in the mean time, check out some recent
-                    projects below. Links to my Linkedin, GitHub, contact info, etc. are below. </p></div>
-                </div> -->
-
-                <blockquote style = "light-blue darken-4">
-
-                   <h3 id = "about" class = "scrollspy">About:</h3>
-                 </blockquote>
-
-
-                 <div class="card-panel  grey lighten-5">
-                   <div class="col s12 left-align">
-
-
-                     <p class="flow-text">
-                        andrewHunn.origin();
-
-                        <br>
-                        String education = "Eastern Michigan University";
-                        <br>
-                        String major = "Computer Science";
-                        <br>
+		<nav class="navbar navbar-default navbar-fixed-top animated slideInDown">
+		  <div class="container-fluid">
+		    	<p class="navbar-text navbar-right"><a href="resources/Hunn_Resume1.pdf" target="_blank" class="navbar-link">Check out my resume!</a></p>
+		  </div>
+		</nav>
 
 
 
-                    </p></div>
-                 </div>
+		<div class="container-fluid">
+            <!--Information Section-->
+			<div class="text-center">
+				<img src="img/profiler-round2.png" width=200 class="profile-pic">
+				<h1>Andrew Hunn</h1>
+			    <h3>Contract Developer</h3>
+			    <h5>Java, Unity, Web/Mobile</h5>
 
-                <blockquote style = "light-blue darken-4">
+			  <div class="text-center" style="margin:20px">
+			  	
+               
+            <a href="https://www.linkedin.com/in/ahunnii" class="" target="_blank">
+                Linkedin
+            </a>
+			  </div>
+			</div>
 
-                   <h3 id = "projects" class = "scrollspy">Projects:</h3>
-                 </blockquote>
+            <!--Truth About Trucks-->
+			<div class="row row-grey">
+			    <div class="col-sm-8 col-sm-offset-2">
 
+			    	<div class="row work-item-row">
+			    		<div class="col-lg-8">
+			    			<img src="img/tat.png" class="img-responsive center-block">
+			    		</div>
+			    		<div class="col-lg-4">
+			    			<h2><a href="" target="blank">Truth About Trucks</a></h2>
+			    			<p>A information kiosk display that deliveres product information about the Ford F150, Super Duty, and Raptor trucks interactively in a variety of media formats. </p>
+			    			<h4>Technology</h4>
+			    			<p>Truth About Trucks is built and run using Unity Game Engine, with the development language being C#. Project ownership is through Texel Logic.</p>
+			    		</div>
+		    		</div>
+		    		<div class="row text-center">
+		    			<div class="col-xs-12">
+                            <br />
+		    				<img src="img/techlogos/unity.png" class="techlogo" width="100">
+		    				<!--<img src="img/techlogos/node.png" class="techlogo" width="100">-->
+		    				
+		    			</div>
+		    		</div>
+		    		<div class="row text-center" style="margin:20px;">
+		    				<a class="btn btn-launch" href="" target="blank">View Project Images</a>
+	    			</div>
+					</div>
+			</div>
 
+            <!--ChemStock-->
+			<div class="row row-white">
+			    <div class="col-sm-8 col-sm-offset-2">
 
+			    	<div class="row work-item-row">
+			    		<div class="col-lg-8 col-lg-push-4">
+			    			<img src="img/chemstock1.png" class="img-responsive center-block">
+			    		</div>
+			    		<div class="col-lg-4 col-lg-pull-8">
+			    			<h2><a href="http://khalob.me/ChemStock" target="blank">ChemStock</a></h2>
+			    			<p>A simple mobile app built to help lab technicians in the Eastern Michigan University Chemistry Department manage recipies, tasks, and lab status. Admins are able to manage the lab technicians within the chemistry labs. Senior Project 2018</p>
+			    			<h4>Technology</h4>
+			    			<p>ChemsStock uses Apache Cordova for the layout, jQuery for functionality, and MySQL for database construction and requests. A backend of PHP was used to handle incoming and outgoing requests to the database, which housed encrypted employee infomrmation, recipes, and lab prep sheets.</p>
+			    		</div>
+		    		</div>
+		    		<div class="row text-center">
+		    			<div class="col-xs-12">
+			    			<img src="img/techlogos/jquery.png" class="techlogo" width="100">
+			    			<!--<img src="img/techlogos/materializecss.png" class="techlogo" width="100">-->
+		    				<img src="img/techlogos/cordova.png" class="techlogo" width="100">
+                            <img src="img/techlogos/mysql.png" class="techlogo" width="100">
+		    			</div>
+		    		</div>
+		    		<div class="row text-center" style="margin:20px;">
+		    				<a class="btn btn-launch" href="http://khalob.me/ChemStock" target="blank">Launch</a>
+	    			</div>
+					</div>
+			</div>
 
-                 <ul id="tabs-swipe-demo" class="tabs right-align ">
-                   <li class="tab col s3"><a href="#test-swipe-1">All</a></li>
-                   <li class="tab col s3"><a class="active" href="#test-swipe-2">Websites</a></li>
-                   <li class="tab col s3"><a href="#test-swipe-3">Applications</a></li>
-                 </ul>
+            <!--Last Night-->
+			<div class="row row-grey">
+			    <div class="col-sm-8 col-sm-offset-2">
 
+			    	<div class="row work-item-row">
+			    		<div class="col-lg-8">
+			    			<img src="img/lastnight.png" class="img-responsive center-block">
+			    		</div>
+			    		<div class="col-lg-4">
+			    			<h2><a href="" target="blank">Last Night</a></h2>
+			    			<p>A video game for Windows and Mac that mimics other survival horde games. Created as a project for Eastern's Video Game Development class that expanded to a submission to the Undergraduate Symposium 2017.</p>
+			    			<h4>Technology</h4>
+			    			<p>Last Night is developed using Unity Game Engine, with a code base in C#. All models were either downloaded from the Unity Asset Store or created using its 3D model mapiulation program.</p>
+			    		</div>
+		    		</div>
+		    		<div class="row text-center">
+		    			<div class="col-xs-12">
+		    				<img src="img/techlogos/unity.png" class="techlogo" width="100">
+		    				<!--<img src="img/techlogos/angular.png" class="techlogo" width="100">-->
+		    			</div>
+		    		</div>
+		    		<div class="row text-center" style="margin:20px;">
+		    				<a class="btn btn-launch" href="" target="blank">Download Game</a>
+	    			</div>
+					</div>
+			</div>
 
-                   <div id="test-swipe-1" class="row">
-                     <div class = "col s12 m4">
-                       <div class="card ">
-                         <div class="card-image">
-                           <img class="materialboxed" src="img/lastnight.png">
-                         </div>
-                       </div>
-                     </div>
-                     <div class = "col s12 m4">
-                       <div class="card ">
-                         <div class="card-image">
-                           <img class="materialboxed" src="img/lastnight.png">
-                         </div>
-                       </div>
-                     </div>
-                     <div class = "col s12 m4">
-                       <div class="card ">
-                         <div class="card-image">
-                           <img class="materialboxed" src="img/lastnight.png">
-                         </div>
-                       </div>
-                     </div>
-                   </div>
+            <!--UnitedShare-->
+			<div class="row row-white">
+			    <div class="col-sm-8 col-sm-offset-2">
+			    	<div class="row work-item-row">
+			    		<div class="col-lg-8 col-lg-push-4">
+			    			<img src="img/unitedshare.png" class="img-responsive center-block">
+			    		</div>
+			    		<div class="col-lg-4 col-lg-pull-8">
+			    			<h2><a href="https://github.com/ahunnii/UnitedShare-SpartaHack2017" target="blank">United Share</a></h2>
+			    		
+			    			<p>A mobile application for good samaritians who want to help the homeless in their area. Users are able to find the homeless based on anynomous tips through a picture and/or description. Users are then able to donate whatever they need and spread the word.</p>
+			    			<h4>Technology</h4>
+			    			<p>United Share is built using Apache Cordova on the Ionic platform that uses the Angular.js framework to build cross-platform mobile applications. On the backend United Share uses a Firebase app to handle requests and authenticiation, while a remote noSQL database handles the data.</p>
+			    		</div>
+			    	</div>
+		    		<div class="row text-center">
+		    			<div class="col-xs-12">
+		    				<!--<img src="img/techlogos/ionic.png" class="techlogo" width="100">-->
+		    				<img src="img/techlogos/angular.png" class="techlogo" width="100">
+		    				<img src="img/techlogos/firebase.png" class="techlogo" width="100">
+		    				<img src="img/techlogos/cordova.png" class="techlogo" width="100">
+		    			</div>
+		    		</div>
+		    		<div class="row text-center" style="margin:20px;">
+		    				<a class="btn btn-launch" href="https://github.com/ahunnii/UnitedShare-SpartaHack2017" target="blank">Open app site</a>
+	    			</div>
+					</div>
+			</div>
 
+            <!--UFC...-->
+			<div class="row row-grey">
+			    <div class="col-sm-8 col-sm-offset-2">
+			    	<div class="row work-item-row">
+                        <div class="col-lg-8 col-lg-push-4">
+                            <img src="img/unitedframing.png" class="img-responsive center-block">
+                        </div>
+			    		<div class="col-lg-4 col-lg-pull-8">
+			    			<h2><a href="http://andrewhunnii.com/United-Framing-Carpenters/" target="blank">United Framing Carpenters</a></h2>
+			    			<p>A web portfolio that showcases carpenter's work with future plans on allowing user feedback and reccomendations with other carpenters.</p>
+			    			<h4>Technology</h4>
+			    			<p>United Framing Carpenters is created using Laravel. JQuery handles gallery functionality. Future plans are to host on client's own server with a Node.js backbone and a MYSQL database to allow for other carpenters to be represented. User account creation, authenitication, and uploads are yet to be determined.</p>
+			    		</div>
+			    	</div>
+		    		<div class="row text-center">
+		    			<div class="col-xs-12">
+		    				<img src="img/techlogos/laravel.png" class="techlogo" width="100">
+		    				<!--<img src="img/techlogos/materializecss.png" class="techlogo" width="100">-->
+                            <img src="img/techlogos/jquery.png" class="techlogo" width="100">
+		    			</div>
+		    		</div>
+		    		<div class="row text-center" style="margin:20px;">
+		    				<a class="btn btn-launch" href="http://andrewhunnii.com/United-Framing-Carpenters/" target="blank">View Site</a>
+	    			</div>
+					</div>
+			</div>
 
-                   <div id="test-swipe-2" class="row">
-                     <div class = "col s12 m4">
-                       <div class="card ">
-                         <div class="card-image hoverable">
-                           <a href="#modal1"><img  src="img/lnmenu.png"><span class="card-title">Last Night</span></a>
-                         </div>
+			<div class="row row-tools row-white">
+			    <div class="col-sm-12 text-center">
 
-                         <!-- Modal Structure -->
-                         <div class = "container">
-                           <div id="modal1" class="modal modal-fixed-footer">
-                             <div class="modal-content">
-                               <!-- First Row (Image and Info) -->
-                               <div class = "row z-depth-1">
-                                 <div class = "col s12 m6">
-                                   <br>
-                                   <img class="materialboxed responsive-img" height = "500px" src="img/lnmenu.png">
-                                   <div class="hide-on-small-only"><br></div>
-                                 </div>
+			    	<h3>Tools I Use</h3>
+    				<img src="img/tool-logos/bitbucket.png" class="techlogo" width="75">
+    				<img src="img/tool-logos/git.png" class="techlogo" width="150">
+    				<img src="img/tool-logos/unity.png" class="techlogo" width="75">
 
-                                 <div class="col s12 m6 center-align">
-                                   <br>
-                                   <h4><i>Last Night</i></h4>
-                                   <h6>Dec. 2016 to Mar. 2017</h6>
-                                   <!-- Badges -->
-                                   <div class="chip ">Unity 5</div>
-                                   <div class="chip">C#</div>
-                                   <div class="chip">JavaScript</div>
-                                   <div class="chip">Blender</div>
-                                   <div class="chip center-align"><img src="img/eastern.png" alt="Contact Person">EMU Undergraduate Symposium 2017</div>
-                                   <div class="chip"><img  src="img/hackeastern.png" alt="Contact Person">HackEastern Submission 2016 (Alpha)</div>
-                                   <div class="chip"><img  src="img/mhacks.png" alt="Contact Person">MHacks9 Submission 2017 (Beta)</div>
+					</div>
+			</div>
 
-                                   <div class="hide-on-large-only"><br></div>
-                                 </div>
-                               </div>
-                               <!-- Second row (Other Information) -->
-                               <div class = "row">
-                                 <ul class="collapsible" data-collapsible="accordion">
-                                   <li>
-                                     <div class="collapsible-header active"><i class="material-icons">info_outline</i>Summary</div>
-                                      <div class="collapsible-body">
-                                       <p>Last Night Alpha was a submission for HackEastern 16. This game takes inspiration from Silent Hills and Resident Evil
-                                         Biohazard. The majority of the scripts was coded using C# while only a few used JavaScript. The objective of the game is to find
-                                         the exit, all while surviving.</p>
-                                       </div>
-                                     </li>
-                                     <li>
-                                       <div class="collapsible-header"><i class="material-icons">perm_media</i>Project Images</div>
-                                       <div class="collapsible-body">
-                                         <div class = "row">
-                                           <div class = "col s12 m4 ">
-                                             <div class="hide-on-large-only"><br></div>
-                                             <img class="materialboxed responsive-img" src="img/ln1.png">
-                                             <div class="hide-on-large-only"><br></div>
-                                           </div>
-                                           <div class = "col s12 m4">
-                                             <div class="hide-on-large-only"><br></div>
-                                             <img class="materialboxed responsive-img" src="img/ln2.png">
-                                             <div class="hide-on-large-only"><br></div>
-                                           </div>
-                                           <div class = "col s12 m4">
-                                             <div class="hide-on-large-only"><br></div>
-                                             <img class="materialboxed responsive-img" src="img/ln3.png">
-                                             <div class="hide-on-large-only"><br></div>
-                                           </div>
-                                         </div>
-                                       </div>
-                                     </li>
-                                     <li>
-                                       <div class="collapsible-header"><i class="material-icons">new_releases</i>Update Log</div>
-                                       <div class="collapsible-body"></div>
-                                     </li>
-                                   </ul>
-                                 </div>
-                               </div>
-                               <div class="modal-footer">
-                                 <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat ">Close</a>
-                                 <a href="https://www.github.com/ahunnii" class="modal-action modal-close waves-effect waves-green btn-flat ">Github</a>
-                               </div>
-                             </div>
-                           </div>
-
-                         </div>
-                       </div>
-
-
-                     <div class = "col s12 m4">
-                       <div class="card ">
-                         <div class="card-image">
-                           <img class="materialboxed" src="img/lastnightbeta.png">
-                         </div>
-                       </div>
-                     </div>
-                     <div class = "col s12 m4">
-                       <div class="card ">
-                         <div class="card-image">
-                           <img class="materialboxed" src="img/lastnightbeta.png">
-                         </div>
-                       </div>
-                     </div>
-                 </div>
-
-                 <div id="test-swipe-3" class="col s12 green">Test 3</div>
-                 <!-- <div id="test-swipe-4" class="col s12 green">Test 4</div>
-                 <div id="test-swipe-5" class="col s12 green">Test 5</div> -->
-
- </div> <!--container -->
+			<div class="row row-footer text-center">
+				<div class="col">
+  				<div style="margin:50px;">
+  					<h3 style="margin:50px 0 15px">I'm available for work, get in touch</h3>
+				  	<a href="mailto:a_hunn59@outlook.com" class="" target="_blank">
+				  		a_hunn59@outlook.com
+				  	</a>
+                      
+				  </div>
+				</div>
+			</div>
 
 
 
 
-
-      <footer class="page-footer light-blue darken-4">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Contact Information</h5>
-              <p class="grey-text text-lighten-4">You can contract me by email: ahunnii@emich.edu</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="http://github.com/ahunnii">GitHub</a></li>
-                <li><a class="grey-text text-lighten-3" href="http://linkedin.com/in/ahunnii">LinkedIn</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="footer-copyright">
-          <div class="container">
-          Andrew Hunn | © MIT | 2017
-          <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
-          </div>
-        </div>
-      </footer>
-
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="libs/materialize/js/materialize.min.js"></script>
-      <script>
-      $(document).ready(function(){
-        $('.carousel').carousel();
-      });
-       $('.carousel.carousel-slider').carousel({fullWidth: true});
-
-       $(document).ready(function(){
-            $('.parallax').parallax();
-       });
-
-       $(document).ready(function(){
-         $('.slider').slider();
-
-});
+		</div>
+<!--
+		<div class="container-fluid">
 
 
-$(document).ready(function(){
-  $('.collapsible').collapsible();
-});
 
-        $(".button-collapse").sideNav();
+		</div> -->
 
-        $(document).ready(function(){
-          $('.parallax').parallax();
-        });
+<!-- 		<div class="text-center">
+				<p style="margin-top:20px"">*Also love building other things, like VBA macros, mobile applications, chat bots, and the odd motorbike...</p>
+			</div> -->
 
-        $(document).ready(function(){
-          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-          $('.modal').modal();
-        });
 
-        $(document).ready(function(){
-        $('ul.tabs').tabs('select_tab', 'tab_id');
-        });
 
-        $(document).ready(function(){
-          $('ul.tabs').tabs();
-        });
+		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- <script src="js/myScripts.js"></script> -->
 
-        $(document).ready(function(){
-  $('.scrollspy').scrollSpy();
-});
-
-      </script>
-    </body>
-  </html>
+	</body>
+</html>
